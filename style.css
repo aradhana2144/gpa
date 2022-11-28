@@ -1,0 +1,217 @@
+body{
+    background: orange;
+}
+/* .pright{
+    text-align: right !important;
+} */
+.nav-link{
+    color:#74353F !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:#24040a !important;
+}
+.toparea{
+    background: #B65651;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+.toparea p{
+    margin: 0;
+}
+.titlearea{
+    background: #F2C38B;
+    padding: 30px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+   
+    color: #74353F;
+}
+.titlearea img{
+    width:120px;
+    margin:0 auto;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 6px 2px rgb(92, 92, 92, 0.2);
+}
+#subheading{
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+}
+
+.menuarea{
+    background: #F8F9FA;
+    word-spacing: 15px;
+    text-align: center;
+}
+.navbar ul{
+    margin:0 auto;
+}
+.slidearea{
+    background: #fff;
+    
+}
+.principal-message{
+    background: #fff;
+    text-align: center;
+    padding-top: 70px;
+}
+/* .principal-message img{
+    width:100%;
+    height: auto;
+} */
+.principal-message .row .col-5 {
+    margin-left: -100px;
+}
+h1{
+    font-size: 25px;
+}
+.principal-message p{
+    text-align: justify;  
+}
+.principal-message p:last-child{
+    text-align: right;  
+}
+/* .mr{
+    padding-left: 515px;
+    font-weight: bold;
+}
+.prince{
+    padding-left: 520px;
+} */
+.course{
+    /*background-image: url("parallax.jpg");*/
+    background-image:linear-gradient( rgb(255,255,255,0.8), rgb(255,255,255,0.8)), url("parallax.jpg");
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-attachment:fixed;
+}
+.course .box{
+    background: #fff;
+    margin: 20px 0;
+    width: 220px;
+    height: 300px;
+    border: 2px solid #a09b9b;
+    cursor: pointer;
+   
+}
+.course .box img{
+    padding: 25px 25px;
+    height: 190px;
+    width: 190px;
+    transition-property: transform;
+    transition-duration: 3s;
+    
+}
+.course .box img:hover{
+    transform: rotate(360deg);
+}
+.course .box p{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 20px;
+    
+}
+h6{
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 20px 0;
+    border-radius: 15px;
+    color: grey;
+}
+h6 a{
+    color: brown;
+}
+.footer{
+    background: #1A1A1A url("https://gpadp.org.in/micro_carbon.cfa0758c9310a463.png");
+    padding: 50px 0;
+    padding: 40px 0;
+}
+
+
+.footer h4{
+    font-size: 18px;
+    color: #fff;
+    
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer h4::before{
+    content:'';
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91263;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer ul li :not(:last-child){
+    margin-bottom: 10px;
+    
+}
+.footer ul li a{
+    font-size: 16px;
+    color: #D37F54;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: -40px;
+    display: block;
+    transition: all 0.9s ease;
+    
+}
+.footer ul li a:hover{
+    color: #fff;
+   
+}
+.lefthover ul li a:hover{
+    color: #fff;
+    padding: 0 10px;
+}
+.footer-col ul li .name a{
+    font-size: 30px;
+    color: #E5B87F;
+}
+#name{
+    font-size: 16px;
+    color: #fcca99;
+    line-height: 24px;
+}
+#address{
+    font-size: 16px;
+    color: #f0cc95;
+    font-weight: 350;
+    line-height: 24px;
+}
+.menuitems{
+    margin-left: 20px;
+}
+iframe{
+    height: 120px;
+    width: 120px;
+    float: left;
+    
+}
+.design{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 15px;
+}
+i{
+    font-size: 17px; 
+}
+.aline{
+    width: 100%;
+    height:1px;
+    background: linear-gradient(to right, transparent, white, transparent);
+}
